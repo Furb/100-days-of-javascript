@@ -7,12 +7,53 @@
 body {
     min-height: 100vh;
     font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 5vh 15vw;
-
+    background: #E9E6E1;
 }
+
+
+
 
 h1 {
     margin-bottom: 8rem;
+    font-size: 4rem;
+    color: #252525;
+    font-weight: 200;
+}
+
+h2 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: #252525;
+    font-weight: 200;
+}
+ a {
+    text-decoration: none;
+}
+
+.label {
+    margin-bottom: 2rem;
+    background: #978749;
+    padding: 0.5rem 2.5rem 0.5rem 2rem;
+    margin-left: -2rem;
+    display: inline-block; 
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.75rem;
+}
+
+
+.small {
+    font-weight: 400;
+    margin: 1rem 2rem;
+}
+
+.small a {
+    color: #976749;
+    text-decoration: underline;
+    font-size: 0.875;
+   
 }
 
 .days {
@@ -23,7 +64,21 @@ h1 {
 }
 
 .day {
-    background-color: aquamarine;
-    padding: 4rem;
+    min-width: 24rem;
+}
+
+
+.card {
+    display: block;
+    color:#F4F2EE;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #949799;
+
+}
+
+.card:hover {
+    background: white;
+    color:#F4F2EE;
 }
 
