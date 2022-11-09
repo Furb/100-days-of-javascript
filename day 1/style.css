@@ -1,0 +1,65 @@
+*, *::before, ::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+    background: url('https://images.unsplash.com/photo-1608663003920-757dd225d6c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+
+}
+
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.key {
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 12rem;
+    height: 12rem;
+    padding: 1rem;
+    text-align: center;
+    background: rgba(0,0,0, 0.7);
+    color: azure;
+    transition: all .07s ease;
+    text-shadow: 0 0 .5rem black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.playing {
+    transform: scale(1.1);
+    border-color: #9a398b;
+    box-shadow: 0 0 1rem #060eaa;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 3.5rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #9a398b;
+  }
